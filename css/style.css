@@ -20,7 +20,7 @@ section {
 .button {
   text-decoration: none;
   color: white;
-  padding: 15px 20px;
+  padding: 13px 20px;
   border-radius: 5px;
   background-image: linear-gradient(tomato, orangered);
   margin-top: 25px;
@@ -169,3 +169,35 @@ section {
   margin: 30px;
 }
 /*Work history complete*/
+.contact-us {
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.contact-us-form {
+  width: 70vw;
+  height: 40vh;
+  background-color: rgba(255, 187, 0, 0.418);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.contact-us-form input {
+  background-color: rgba(128, 128, 128, 0.356);
+  color: black;
+  width: 350px;
+  height: 45px;
+  padding: 3px;
+  margin-top: 22px;
+  font-size: 18px;
+  border-style: none;
+  border-radius: 0px 0px 0px 5px;
+  flex-wrap: wrap;
+}
+.contact-us-form .button {
+  margin-left: 0;
+  float: left;
+  flex-wrap: wrap;
+  border-radius: 0px 5px 0px 0px;
+}
