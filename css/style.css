@@ -169,6 +169,7 @@ section {
   margin: 30px;
 }
 /*Work history complete*/
+/*Contact us start*/
 .contact-us {
   flex-direction: column;
   margin-bottom: 40px;
@@ -200,4 +201,23 @@ section {
   float: left;
   flex-wrap: wrap;
   border-radius: 0px 5px 0px 0px;
+}
+/*Contact us complete*/
+/*footer start*/
+footer {
+  background-color: black;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#footer-title {
+  color: orangered;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+footer p {
+  padding-bottom: 10px;
 }
