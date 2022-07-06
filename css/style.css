@@ -59,6 +59,7 @@ section {
 .donation-box-title {
   flex-direction: column;
   padding-bottom: 50px;
+  padding-top: 40px;
 }
 .donation-box-list div {
   padding: 30px;
