@@ -92,4 +92,54 @@ section {
   border-bottom: 2px solid gray;
   outline: none;
 }
+
+.donation-plan-title {
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+.card1 {
+  width: 20%;
+  padding: 30px;
+  flex-direction: column;
+  background-color: rgba(136, 213, 216, 0.397);
+  margin-left: 5%;
+  box-shadow: 10px 10px 10px gray;
+  transition-duration: 3s;
+  border-radius: 15px;
+}
+.card1 div,
+.card2 div,
+.card3 div {
+  padding-bottom: 20px;
+}
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+  padding-bottom: 20px;
+}
+.card2 {
+  width: 20%;
+  padding: 30px;
+  flex-direction: column;
+  background-color: rgba(160, 95, 135, 0.295);
+  margin-left: 5%;
+  box-shadow: 10px 10px 10px gray;
+  transition-duration: 3s;
+  border-radius: 15px;
+}
+.card3 {
+  width: 20%;
+  padding: 30px;
+  flex-direction: column;
+  background-color: rgba(240, 236, 26, 0.295);
+  margin-left: 5%;
+  box-shadow: 10px 10px 10px gray;
+  transition-duration: 3s;
+  border-radius: 15px;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  transform: translate(10px, 10px);
+}
 /*donation box complete*/
