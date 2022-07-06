@@ -56,6 +56,7 @@ section {
 }
 /*banner complete*/
 /*donation box start*/
+
 .donation-box-title {
   flex-direction: column;
   padding-bottom: 50px;
@@ -144,3 +145,27 @@ section {
   transform: translate(10px, 10px);
 }
 /*donation box complete*/
+/*Work history start*/
+.work-history {
+  flex-direction: column;
+  margin-top: 80px;
+}
+.work-history p {
+  text-align: center;
+}
+.work-history-description {
+  width: 800px;
+  text-align: center;
+}
+.work-history-box {
+  width: 90vw;
+  border: 2px solid black;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px black;
+}
+.box {
+  padding: 30px;
+  margin: 30px;
+}
+/*Work history complete*/
